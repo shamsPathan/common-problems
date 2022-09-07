@@ -1,0 +1,8 @@
+
+# If internet is not working after installing Valet(laravel), ask yourself
+
+-- Does the output of systemctl status dnsmasq has errors?
+-- Is the file /opt/valet-linux/dns-servers empty?
+-- Does the /opt/valet-linux/resolv.conf file have only 127.0.0.1 as its nameserver?
+-- Is /etc/resolv.conf a symlink to /opt/valet-linux/resolv.conf?
+
