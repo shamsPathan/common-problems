@@ -6,3 +6,6 @@
 -- Does the /opt/valet-linux/resolv.conf file have only 127.0.0.1 as its nameserver?
 -- Is /etc/resolv.conf a symlink to /opt/valet-linux/resolv.conf?
 
+
+sollutions may work:
+-- systemctl restart dnsmasq
